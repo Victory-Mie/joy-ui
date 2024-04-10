@@ -10,8 +10,8 @@ export default defineConfig({
     logo: '/logo.png',
     nav: [
       { text: '首页', link: '/' },
-      { text: '指南', link: '/guide/' },
-      { text: '组件', link: '/components/button/' }
+      { text: '指南', link: '/guide/installation' },
+      { text: '组件', link: '/components/button' }
     ],
 
     sidebar: {
@@ -27,7 +27,7 @@ export default defineConfig({
         {
           text: '基础组件',
           items: [
-            { text: 'button 按钮', link: '/components/button/index' },
+            { text: 'button 按钮', link: '/components/button' },
           ]
         }
       ]
